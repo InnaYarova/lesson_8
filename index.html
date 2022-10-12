@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson_8</title>
+</head>
+
+<body>
+	<header></header>
+	<main>
+		<div class="container">
+			<div class="about">
+				<div class="desc">
+					<p class="title">About the course</p>
+					<p class="text">Bibendum vulputate adipiscing venenatis at est, a eu tincidunt. Leo aenean congue in
+						sagittis, felis maecenas amet varius at. Pellentesque euismod in faucibus at elementum. Tellus
+						maecenas libero est tempus sit cras at malesuada diam. Consequat senectus dictumst non hac dignissim
+						montes, pretium, egestas molestie. Sed magna aliquet ornare nibh vel lectus diam eget pretium. Lorem
+						risus nunc tincidunt tortor, mi nulla pellentesque</p>
+				</div>
+				<div class="list">
+					<p>You will learn:</p>
+					<ul class="text">
+						<li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+						<li>Vulputate placerat amet pulvinar lorem nisl.</li>
+						<li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+						<li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+						<li>Fringilla in nec risus congue venenatis pretium posuere nec.</li>
+						<li>Cursus eu pretium, vulputate tempus quam massa sed at.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="curator">
+				<div class="headline">
+					<p>Course curator</p>
+					<p class="title">Cody Fisher</p>
+					<p>Senior UX designer in IT Product Company</p>
+				</div>
+				<ul class="item">
+					<li class="icon-rate">4.9 rate</li>
+					<li class="icon-courses">4 courses</li>
+					<li class="icon-students">350 students</li>
+				</ul>
+				<p class="text">Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis,
+					vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus
+					sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed
+					pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam
+					tristique sollicitudin interdum quam. </p>
+			</div>
+		</div>
+		<div class="practice-container">
+			<div class="game">
+				<p>Збери горішки для білочки. Для початку наведи мишею на білочку, а потім прямуй до горішка</p>
+				<div class="go">
+					<img src="img/squirrel.png" alt="Тут повинна бути білка">
+					<div class="go-1"></div>
+					<div class="go-2"></div>
+					<div class="go-3"></div>
+					<div class="go-4"></div>
+					<div class="go-5"></div>
+				</div>
+				<div class="finish">
+					<img class="finish" src="img/nuts1.png" alt="тут повинно бути багато горіхів">
+				</div>
+			</div>
+			<div class="test">
+				<div class="test-container">
+					<div class="instruction">
+						<a href="#instruction-item" class="link">Інструкція до гри</a>
+						<div id="instruction-item" class="instruction-item">
+							<p>1. Оберіть та натисніть на номер запитання</p>
+							<p>2. Прочитайте уважно запитання та оберіть варіант відповіді (натисніть на обраному варінті
+								відповіді)</p>
+							<p>3. Якщо ви обрали правильний варіант відповіді, то при натисканні обрана відповідь буде <span
+									class="green"> зеленим </span>
+								кольором, якщо неправильна, то <span class="red">червоного</span></p>
+							<p>4. Після того, як обрали відповідь натисніть на &#127968;, щоб повернутися до вибору запитань
+							</p>
+							<p>Зверніть увагу!</p>
+							<p> Якщо Ви вже обирали запитання, то колір запитання фарбується в
+								червоний колір, а номер зникає</p>
+						</div>
+					</div>
+					<div class="choice">
+						<p id="choice-questions">Оберіть запитання</p>
+						<a href="#one" class="button">1</a>
+						<a href="#two" class="button">2</a>
+						<a href="#three" class="button">3</a>
+						<a href="#four" class="button">4</a>
+						<a href="#five" class="button">5</a>
+					</div>
+					<div class="questions">
+						<div class="question1">
+							<p></p>
+							<p id="one" class="question-text">1. Найпростіша геометрична фігура – це…
+							</p>
+							<p class="button-false">А) промінь</p>
+							<p class="button-false">Б) пряма</p>
+							<p class="button-true">В) точка </p>
+							<p class="button-false">Г) відрізок</p>
+							<a href="#choice-questions" class="link">&#127968;</a>
+						</div>
+						<div class="question2">
+							<p id="two" class="question-text">2. Яка з точок на рисунку належить як прямій a, так і прямій b?
+							</p>
+							<img src="img/question2.png" alt="тут має бути рисунок">
+							<p class="button-false">А) K</p>
+							<p class="button-true">Б) M </p>
+							<p class="button-false">В) L </p>
+							<p class="button-false">Г) N</p>
+							<a href="#choice-questions" class="link" title="Повернутися до вибору запитань">&#127968;</a>
+						</div>
+						<div class="question3">
+							<p id="three" class="question-text">3. Яке позначення кута, зображеного на рисунку, є неправильним?
+							</p>
+							<img src="img/question3.png" alt="тут має бути рисунок">
+							<p class="button-false">А) <span class="angle">𝑂</span></p>
+							<p class="button-false">Б)<span class="angle">𝑀𝑂𝑁</span></p>
+							<p class="button-true">В)<span class="angle">𝑁𝑂𝑀 </span></p>
+							<p class="button-false">Г)<span class="angle">𝑂MN</span>
+							</p>
+							<a href="#choice-questions" class="link" title="Повернутися до вибору запитань">&#127968;</a>
+						</div>
+						<div class="question">
+							<p id="four" class="question-text">4. Який із запропонованих кутів є тупим?
+							</p>
+							<p class="button-true">А) <span class="angle-degree">𝑀=129</span></p>
+							<p class="button-false">Б) <span class="angle-degree">𝑇=90</span></p>
+							<p class="button-false">В) <span class="angle-degree">𝑁=180</span></p>
+							<p class="button-false">Г) <span class="angle-degree">𝐿=78</span></p>
+							<a href="#choice-questions" class="link" title="Повернутися до вибору запитань">&#127968;</a>
+						</div>
+						<div class="question">
+							<p id="five" class="question-text">5. Яке з наведених чисел ділиться на 5 і на 9?
+
+							</p>
+							<p class="button-false">А) 195</p>
+							<p class="button-false">Б) 369</p>
+							<p class="button-true">В) 675
+							</p>
+							<p class="button-false">Г) 795</p>
+							<a href="#choice-questions" class="link" title="Повернутися до вибору запитань">&#127968;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer-container">
+				<span>Слава Україні!</span> <span>Героям Слава!</span>
+			</div>
+	</footer>
+</body>
+
+</html>
